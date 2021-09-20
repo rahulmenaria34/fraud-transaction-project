@@ -15,6 +15,8 @@ import numpy as np
 from flask import Flask
 import pickle
 from flask import request, jsonify, render_template
+import warnings
+warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
 model = pickle.load(open("Fraud_Transaction_Detection_.pkl", "rb"))

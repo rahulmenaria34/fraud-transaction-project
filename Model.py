@@ -20,6 +20,7 @@ import seaborn as sns
 #import plotly.tools as tls
 #import cufflinks as cf
 import matplotlib.pyplot as plt
+# from IPython import get_ipython
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import normalize
@@ -32,7 +33,7 @@ import warnings
 # In[3]:
 
 
-#get_ipython().system('pip install cassandra-driver')
+# get_ipython().system('pip install cassandra-driver')
 
 
 # In[4]:
@@ -297,7 +298,7 @@ plt.ylabel("Frequency")
 # In[39]:
 
 
-#get_ipython().system('pip install --user imblearn')
+# get_ipython().system('pip install --user imblearn')
 
 
 # In[40]:
